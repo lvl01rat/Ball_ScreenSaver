@@ -1,4 +1,4 @@
-js/week2_keyboard_movement.js//Declare my variables
+
 
 var canvas;
 var context;
@@ -24,16 +24,18 @@ function animate()
 	
 	
 	//Move the Player to the right
-	if(d)
-	{
-		console.log("Moving Right");
-		player.x += 2;
-	}
-	if(a)
-	{
-		console.log("Moving Left");
-		player.x += -2;
-	}
+	// if(d)
+	// {
+	// 	console.log("Moving Right");
+	// 	player.x += 2;
+	// }
+	// if(a)
+	// {
+	// 	console.log("Moving Left");
+	// 	player.x += -2;
+	// }
+
+	player.x += 2;
 	
 	//Update the Screen
 	player.drawCircle();
