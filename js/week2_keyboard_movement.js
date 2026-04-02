@@ -1,4 +1,4 @@
-js/week2_keyboard_movement.js//Declare my variables
+
 
 var canvas;
 var context;
